@@ -3,9 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-  <div>Hello {{title}}</div>
-  `,
-  styleUrls: ['./app.component.css']
+  <div>HEADER</div>
+
+  <router-outlet></router-outlet>
+  <div>FOOTER</div>
+  `
 })
 export class AppComponent {
   title = 'app';
