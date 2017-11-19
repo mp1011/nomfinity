@@ -5,13 +5,12 @@ import {Recipe} from '../models/recipe';
 
 @Component({
     template: ` 
-   
-    <div>
-    i am the home page    
-    <RecipeSummary *ngFor='let recipe of Recipes' [Recipe]='recipe' >    
-    </RecipeSummary>
-    </div>
-    
+       
+    <Grid>
+        <RecipeSummary *ngFor='let recipe of Recipes' [Recipe]='recipe'>    
+        </RecipeSummary>
+    </Grid>
+
     `
 })
 

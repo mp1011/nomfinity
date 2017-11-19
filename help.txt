@@ -1,0 +1,20 @@
+terminal
+    ng serve
+    http://localhost:4200
+
+new component
+    make the component class
+    app.module.ts -> import class, add to declarations
+
+compile error still happens even after fixed
+    kill terminal
+    ctrl `
+    ng serve
+
+something's not right
+    debug->launch
+    
+unknown tag -> NO_ERRORS_SCHEMA
+
+images
+    must go in assets folder, for some reason
